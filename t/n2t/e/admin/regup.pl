@@ -773,7 +773,7 @@ prendre en compte.
 Hola $firstname,
 </p><p>
 Gracias por ayudarnos a mantener el registro de NAAN al día. El cambio
-solicitado esta hecho. Los cambios pueden tardar hasta 24 horas para ser
+solicitado está hecho. Los cambios pueden tardar hasta 24 horas para ser
 reconocidos por el sistema de resolución N2T.net.
 </p><p>
 -$rname, en nombre de NAAN-Registrar\@googlegroups.com
@@ -855,7 +855,7 @@ welcome) and using if they wish.
 </p><p>
 -$rname, on behalf of NAAN-Registrar\@googlegroups.com
 </p><p>
----- French version ----
+---- version française ----
 </p><p>
 Bonjour $firstname,
 </p><p>
@@ -877,7 +877,10 @@ La meilleure façon de démarrer avec les ARK (Archival Resource Key) est de se
 familiariser avec ce <a href="https://arks.org/about/getting-started">
 bref guide</a> et de parcourir le <a href="https://arks.org/">site Web de
 d'ARK Alliance</a>.
-Vous pouvez également trouver des informations utiles dans la <a href="https://wiki.lyrasis.org/pages/viewpage.action?pageId=178880619">FAQ sur les ARK</a> et dans <a href="https://www.bnf.fr/fr/sommet-international-ark-journee-detude-et-dechanges-sur-lidentifiant-ark-archival-resource-key#bnf-ark-pour-les-d-butants">cette présentation de l'identifiant ARK</a>.
+Vous pouvez également trouver des informations utiles dans la <a href="https://wiki.lyrasis.org/pages/viewpage.action?pageId=178880619">FAQ sur les ARK</a>
+(<a href="https://wiki.lyrasis.org/display/ARKs/ARK+Identifiers+FAQ">version anglaise</a>,
+<a href="https://wiki.lyrasis.org/pages/viewpage.action?pageId=185991610">version en español</a>)
+et dans <a href="https://www.bnf.fr/fr/sommet-international-ark-journee-detude-et-dechanges-sur-lidentifiant-ark-archival-resource-key#bnf-ark-pour-les-d-butants">cette présentation de l'identifiant ARK</a>.
 La <a href="https://n2t.net/ark:/13030/c7cv4br18">spécification ARK</a> (en anglais) est actuellement le meilleur guide pour savoir comment créer des URL conformes aux règles ARK, bien qu'elle soit assez technique.
 Il existe un <a href="https://framalistes.org/sympa/info/arks-forum-fr">groupe de discussion francophone public</a> sur les ARK destiné aux personnes désireuses de partager et d'apprendre des autres sur la manière dont les ARK ont été ou pourraient être utilisés dans des applications de gestion d'identifiants.
 Le meilleur logiciel libre pour mettre en œuvre votre propre service ARK est actuellement <a href="http://n2t.net/e/noid.html">Noid</a>.
@@ -886,7 +889,7 @@ Vous n'avez rien d'autre à faire pour l'instant. Comme vous le savez peut-être
 </p><p>
 -$rname, au nom de NAAN-Registrar\@googlegroups.com
 </p><p>
----- Spanish version ----
+---- versión en español ----
 </p><p>
 <p>
 Hola $firstname,
