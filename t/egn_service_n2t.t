@@ -219,15 +219,15 @@ like $x, qr{^Location: https://z.example.com}m,
 #$x = apachectl('graceful-stop')	and say($x);
 #exit;	######### premature stop
 
-$pps = setpps get_user_pwd "idra", "idra", $cfgdir;
-
-my $idrashdr = 'ark:/99999/fq3';
-
-$a0 = "${idrashdr}n2tegntest";
-$x = `$webcl $pps "$ssvbase_u/a/idra/b? --verbose $a0.set _t https://z.example.com"`;
-$x = `$webcl --max-redirect 0 "$ssvbase_u/$a0"`;
-like $x, qr{^Location: https://z.example.com}m,
-	"generic 'idra' test shoulder ($idrashdr) target redirect";
+#$pps = setpps get_user_pwd "idra", "idra", $cfgdir;
+#
+#my $idrashdr = 'ark:/99999/fq3';
+#
+#$a0 = "${idrashdr}n2tegntest";
+#$x = `$webcl $pps "$ssvbase_u/a/idra/b? --verbose $a0.set _t https://z.example.com"`;
+#$x = `$webcl --max-redirect 0 "$ssvbase_u/$a0"`;
+#like $x, qr{^Location: https://z.example.com}m,
+#	"generic 'idra' test shoulder ($idrashdr) target redirect";
 
 $pps = setpps get_user_pwd "ezid", "ezid", $cfgdir;
 

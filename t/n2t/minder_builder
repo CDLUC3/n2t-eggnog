@@ -60,8 +60,8 @@ RewriteRule ^/(ark:/?99166[^/]*/p3.*)\$ \\
 # Islandora YYY this one-off does not scale
 #ark:/99999/fq3                          # idra
 #ark:/99999/ffq3                         # idra_test
-RewriteRule ^/(ark:/?99999[^/]*/ff?q3.*)\$ \\
-    "_rslv_\${map_idra:\${esc:\$1%{ENV:THUMPER}}.resolve \${$hdrblob}}" [NC]
+#RewriteRule ^/(ark:/?99999[^/]*/ff?q3.*)\$ \\
+#    "_rslv_\${map_idra:\${esc:\$1%{ENV:THUMPER}}.resolve \${$hdrblob}}" [NC]
 
 # YYY this rule works for all registered NAANs
 # This permits local resolvers to publish test/fake 99999-based ARKs via N2T
@@ -99,8 +99,8 @@ RewriteRule ^/(ark:/?99152[^/]*/p0.*)\$ \\
 
 # Exception: CrossRef project
 #RewriteRule ^/eoi:/?(.*)\$   "_rslv_\${map_xref:doi:\${uc:\$1}.get _t}"
-RewriteRule ^/eoi:/?.*\$ \\
-  "_rslv_\${map_xref:%{REQUEST_URI}.resolve \${$hdrblob}}" [NC]
+#RewriteRule ^/eoi:/?.*\$ \\
+#  "_rslv_\${map_xref:%{REQUEST_URI}.resolve \${$hdrblob}}" [NC]
 
 # XXX drop this since it's a defined prefix and we don't really do purls?
 #RewriteRule ^/purl:/?.*\$ \\
