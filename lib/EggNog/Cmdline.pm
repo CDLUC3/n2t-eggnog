@@ -1434,7 +1434,7 @@ incorrect in occasionally doing such things as calling "die" or
 
 =head1 BUGS
 
-Probably.  Please report to jak at ucop dot edu.
+Probably.  Please report to jakkbl at gmail dot com.
 
 =head1 COPYRIGHT AND LICENSE
 

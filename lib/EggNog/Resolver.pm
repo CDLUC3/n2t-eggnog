@@ -1779,7 +1779,7 @@ sub resolve { my( $bh, $mods, $id, @headers )=@_;
 		$proto ||= 'http';		# usually set in $hdrinfo
 		my $redirect = $rpinfo->{redirect};
 
-		#   ${a} replaced with string "after" the colon
+		#   ${ac} replaced with string "after" the colon
 		#   ${blade} replaced with blade part of id
 		# $redirect =~ s/\${a}/$idx->{ slid }/g;	# maybe later
 		$redirect =~ s/\${blade}/$idx->{blade}/g;
@@ -3273,7 +3273,7 @@ Resolver - routines to do advanced identifier resolution
 
 =head1 BUGS
 
-Probably.  Please report to jak at ucop dot edu.
+Probably.  Please report to jakkbl at gmail dot com.
 
 =head1 COPYRIGHT AND LICENSE
 

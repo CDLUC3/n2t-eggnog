@@ -842,6 +842,7 @@ You may also find useful information in the
 (<a href="https://wiki.lyrasis.org/pages/viewpage.action?pageId=178880619">version française</a>,
 <a href="https://wiki.lyrasis.org/pages/viewpage.action?pageId=185991610">version en español</a>)
 and <a href="https://arks.org/about/">this ARK identifier overview</a>.
+If you are a journal publisher, there is a mature <a href="https://github.com/yasielpv/pkp-ark-pubid">ARK OJS plugin</a> with guides in English and Spanish.
 The <a href="https://n2t.net/ark:/13030/c7cv4br18">ARK specification</a> is currently the best guide for how to create URLs that comply with ARK rules, although it is fairly technical.
 There is a <a href="https://groups.google.com/group/arks-forum">public discussion group for ARKs</a>
 (<a href="https://framalistes.org/sympa/info/arks-forum-fr">forum francophone</a>)
@@ -881,6 +882,7 @@ Vous pouvez également trouver des informations utiles dans la <a href="https://
 (<a href="https://wiki.lyrasis.org/display/ARKs/ARK+Identifiers+FAQ">version anglaise</a>,
 <a href="https://wiki.lyrasis.org/pages/viewpage.action?pageId=185991610">version en español</a>)
 et dans <a href="https://www.bnf.fr/fr/sommet-international-ark-journee-detude-et-dechanges-sur-lidentifiant-ark-archival-resource-key#bnf-ark-pour-les-d-butants">cette présentation de l'identifiant ARK</a>.
+Si vous êtes un éditeur de journal, il existe un <a href="https://github.com/yasielpv/pkp-ark-pubid">plugin ARK OJS</a> mature avec des guides en anglais et en espagnol.
 La <a href="https://n2t.net/ark:/13030/c7cv4br18">spécification ARK</a> (en anglais) est actuellement le meilleur guide pour savoir comment créer des URL conformes aux règles ARK, bien qu'elle soit assez technique.
 Il existe un <a href="https://framalistes.org/sympa/info/arks-forum-fr">groupe de discussion francophone public</a> sur les ARK destiné aux personnes désireuses de partager et d'apprendre des autres sur la manière dont les ARK ont été ou pourraient être utilisés dans des applications de gestion d'identifiants.
 Le meilleur logiciel libre pour mettre en œuvre votre propre service ARK est actuellement <a href="http://n2t.net/e/noid.html">Noid</a>.
@@ -915,6 +917,7 @@ También puede resultarle útil información en el
 (<a href="https://wiki.lyrasis.org/pages/viewpage.action?pageId=178880619"> versión francesa </a>,
 <a href="https://wiki.lyrasis.org/pages/viewpage.action?pageId=185991610"> versión en español </a>)
 y <a href="https://arks.org/about/"> esta descripción general del identificador ARK </a>.
+Si es editor de una revista, hay un <a href="https://github.com/yasielpv/pkp-ark-pubid">plugin ARK OJS</a> maduro con guías en inglés y español.
 La <a href="https://n2t.net/ark:/13030/c7cv4br18"> especificación ARK </a> es actualmente la mejor guía sobre cómo crear URL que cumplan con las reglas ARK, aunque es bastante técnica.
 Hay un <a href="https://groups.google.com/group/arks-forum"> grupo de debate público para ARK </a>
 (<a href="https://framalistes.org/sympa/info/arks-forum-fr"> foro francófono </a>)

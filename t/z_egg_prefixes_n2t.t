@@ -209,6 +209,9 @@ $x = nresolve_stdin_hdr( "--home $buildout_root -d $td/dummy",
 					#  normally: "mc"
 	  '302 http://id.example.org/nothing_to_subst',
 	  'minimal first digit tester shoulder redirects via const target', 
+	#'ark:/99996/f8bar/that', '',		# forward rule with ac
+	#  '302 http://id.example.org/foo/99996/f8bar/thatzaf',
+	#  'tester shoulder redirects via "forward" and "ac"',
 	'ark:12148/btv1b8426258c', '',	# BnF, and no :/
 	  '302 http://ark.bnf.fr/ark:/12148/btv1b8426258c',
 	  'ark naan (BnF) prefix redirect, with only : instead of :/',
