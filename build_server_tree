@@ -242,7 +242,7 @@ EGG=""
 service="$cfgdir"		# yyy "service" is the better var name
 export EGG+=" --service $service "
 
-# Needed for first rollout, before there's any may be eggnog_conf file
+# Needed for first rollout, before there's any eggnog_conf file
 # (which would override it if it existed).
 export EGNAPA_SERVICE="$service"
 
@@ -1351,10 +1351,10 @@ build_passwd || {
 	exit 1
 }
 
-# create password file pwdfile_naan_curators for NAAN curators from input:
-#    Working Email       Generated Password
-#    jakkbl@gmail.com        lkajsjfoiwe
-#    bertrand@bnf.fr     woruouweuou
+# create password file pwdfile_naan_curators for NAAN curators from input?
+#    Working Email                 Generated Password
+#    curtis_curator@example.com    lkajsjfoiwe
+#    ...
 # generate 12-char password for every member of NAAN WG
 # yyy       date +%s | md5sum | head -c 12
 # yyy (mac) date +%s | md5    | head -c 12
