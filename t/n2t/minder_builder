@@ -45,6 +45,9 @@ cat <<- EOT > $rwplus.pre
 #ark:/99999/fk3                         # ncpt
 #ark:/99999/ffk3                        # ncpt_test
 #ark:/68061				# ncpt
+#ark:/63274				# ncpt
+RewriteRule ^/(ark:/?63274.*)\$ \\
+  "_rslv_\${map_ncpt:\${esc:\$1%{ENV:THUMPER}}.resolve \${$hdrblob}}" [NC]
 RewriteRule ^/(ark:/?68061.*)\$ \\
     "_rslv_\${map_ncpt:\${esc:\$1%{ENV:THUMPER}}.resolve \${$hdrblob}}" [NC]
 RewriteRule ^/(ark:/?99999[^/]*/ff?k3.*)\$ \\
