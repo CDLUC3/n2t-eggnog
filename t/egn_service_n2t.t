@@ -216,6 +216,13 @@ $x = `$webcl --max-redirect 0 "$ssvbase_u/$a0"`;
 like $x, qr{^Location: https://z.example.com}m,
 	"'ncpt' real shoulder ($ncptshdr) target redirect";
 
+$ncptshdr = 'ark:/63274/fk3';
+$a0 = "${ncptshdr}n2tegntest";
+$x = `$webcl $pps "$ssvbase_u/a/ncpt/b? --verbose $a0.set _t https://z.example.com"`;
+$x = `$webcl --max-redirect 0 "$ssvbase_u/$a0"`;
+like $x, qr{^Location: https://z.example.com}m,
+	"'ncpt' real shoulder ($ncptshdr) target redirect";
+
 #$x = apachectl('graceful-stop')	and say($x);
 #exit;	######### premature stop
 
