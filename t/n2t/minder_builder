@@ -72,7 +72,7 @@ RewriteRule ^/(ark:/?99166[^/]*/p3.*)\$ \\
 # YYY this rule works for all registered NAANs
 # This permits local resolvers to publish test/fake 99999-based ARKs via N2T
 #RewriteRule ^/ark:/?(99999[^/]*/9([^_]+)_.*)\$ "/ark:/\$2/\$1" [NC,R=302]
-RewriteRule ^/ark:/?(99999[^/]*/9([^_]+)_.*)$ "%{REQUEST_SCHEME}://%{SERVER_NAME}/ark:/$2/$1" [NC,R=302]
+RewriteRule ^/ark:/?(99999[^/]*/9([^_]+)_.*)$ "%{REQUEST_SCHEME}://%{SERVER_NAME}/ark:/\$2/\$1" [NC,R=302]
 
 #RewriteRule ^/ark:/?99152.*\$      "_rslv_\${map_yamz:%{REQUEST_URI}.resolve \${$hdrblob}}"
 
