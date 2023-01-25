@@ -163,7 +163,7 @@ like $x, qr|^Location: https://ark.archive.org/ark:/13960/t00000m0v|m,
 
 # long-time partner YAMZ ARKs moved out of prd tests
 $x = `wegn locate "ark:/99152/h1023"`;
-like $x, qr{^Location: https://yamz.net/term=h1023$}m,
+like $x, qr{^Location: https://yamz.net/ark:/99152/h1023$}m,
 	"YAMZ target redirects";
 
 # XXX at some point N2T should forward new arks (no first slash) without adding
