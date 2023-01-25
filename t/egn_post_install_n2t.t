@@ -162,9 +162,9 @@ like $x, qr|^Location: https://ark.archive.org/ark:/13960/t00000m0v|m,
 	"OCA target https redirect, old-style ARK, original t shoulder";
 
 # long-time partner YAMZ ARKs moved out of prd tests
-$x = `wegn locate "ark:/99152/h1023"`;
-like $x, qr{^Location: https://yamz.net/ark:/99152/h1023$}m,
-	"YAMZ target redirects";
+#$x = `wegn locate "ark:/99152/h1023"`;
+#like $x, qr{^Location: https://yamz.net/term=h1023$}m,
+#	"YAMZ target redirects";
 
 # XXX at some point N2T should forward new arks (no first slash) without adding
 # the slash, ie, preserving the incoming style
