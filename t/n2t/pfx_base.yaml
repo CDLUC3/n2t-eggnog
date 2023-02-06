@@ -36,7 +36,7 @@ igsn:
   name: "International Geo Sample Number"
   alias: 
   primary: "true"
-  redirect: "hdl.handle.net/10273/$id"
+  redirect: "http://hdl.handle.net/10273/$id"
   test: "SSH000SUA"
   probe: "http://hdl.handle.net/10273/SSH000SUA"
   more: "http://www.geosamples.org/"
